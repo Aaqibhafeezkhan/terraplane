@@ -9,7 +9,7 @@ const (
 	KindUnlock  Kind = "unlock"
 )
 
-const InvalidCommandHelp = "I couldn't parse that Terraplane command. Use one of these forms:\n\n" +
+const InvalidCommandHelp = "Couldn't parse command.\n\nValid commands:\n\n" +
 	"`terraplane plan [-s <stack>]... [-e <environment>]... [-- <terraform flags>]`\n" +
 	"`terraplane apply [-s <stack>]... [-e <environment>]...`\n" +
 	"`terraplane unlock [-s <stack>]... [-e <environment>]...`\n\n" +
